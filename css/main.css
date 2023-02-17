@@ -32,7 +32,7 @@ body {
 }
 
 header {
-  background-color: #f3ffe4;
+  background-color: #c6ecf6;
   display: inline;
 
 }
@@ -52,7 +52,7 @@ header {
 
 #main-header-nav ul {
  
-  color:#21391c;
+  color:#062932;
   display: inline;
   list-style-type:none;
   line-height: 50px;
@@ -80,7 +80,7 @@ header {
 
 .box4 {
   margin-left:1300px ;
-  color:#21391c;
+  color:#c6ecf6;
   padding-right: 90px;
   padding-left: 90px;
   border-radius: 30px;
@@ -91,17 +91,11 @@ header {
 }
 
 .logo {
-  background-color: #7b7b7b;
   padding:40px;
 
   margin-right: 530px;
   margin-left: 550px;
   
-}
-
-#hero {
-
-  opacity: 100%;
 }
 
 #headline {
@@ -111,7 +105,6 @@ header {
   margin-left: 480px;
 }
 .pop-up {
-  background-color: #909090;
   color: #2d2d2d;
   padding: 75px;
   padding-left: 120px;
@@ -124,7 +117,7 @@ header {
   position: absolute;
   width: 400px;
   opacity: 70%;
-  background-color: #D8F0BD;
+  background-color:#c6ecf6;
   line-height: 10px;
 }
 
@@ -133,7 +126,9 @@ header {
 }
 
 #about {
-  background-color: #D8E2CD;
+  background-color: #c6ecf6;
+margin-top: -4px;
+
 
 }
 #headline2 {
@@ -176,7 +171,7 @@ header {
 }
 
 #flavours-title {
-  background-color: #ebf4e1;
+  background-color:   #d9f7ff;
   font-family: "bello-caps", sans serif;
   font-style: normal;
   font-size: 40px;
@@ -185,29 +180,28 @@ header {
   padding-left: 815px;
   padding-right: 705px;
   padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 0px;
   width: 400px;
  
   
 }
 
 #flavours {
-  background-color:#c3cfb5 ;
   margin: 0;
   padding: 0;
+  padding-bottom: 200px;
 }
 
 #flavours nav ul {
-  opacity: 80%;
+ 
   display: inline;
   position: absolute;
-  background-color:#c3cfb5 ;
+  background-color:#c6ecf6;
   padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 280px;
   margin: 0px;
   padding-right: 174px ;
   padding-left: 135px;
-  padding
 
   
   
@@ -217,15 +211,44 @@ header {
 .bottles {
   padding-left: 55px;
  
-
-}
-
-#flav-list {
  
-}
-
-#flavous nav {
 
 }
 
+#share {
+  margin-top: 980px;
+  margin-left: -90px;
 
+
+}
+
+#share-title {
+  background-color: #303629;
+  font-family: "bello-caps", sans serif;
+  font-style: normal;
+  font-size: 40px;
+  color:#ecf8e9;
+  display: inline;
+  position: absolute;
+  padding-left: 45px;
+  padding-right: 55px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 1820px;
+  margin-top: 600px;
+  text-align: center;
+}
+
+.mems {
+  display:flex;
+  flex-direction:row;
+  opacity:80%;
+
+}
+.mems2 {
+  display:flex;
+  flex-direction:row;
+  margin-top: 402px;
+  margin-left: -153px;
+  opacity: 80%;
+}
