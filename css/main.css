@@ -33,8 +33,7 @@ body {
 
 header {
   background-color: #c6ecf6;
-  display: inline;
-
+  
 }
 
 #logo {
@@ -44,27 +43,37 @@ header {
 }
 
 #main-header-nav {
-  display: inline;
-  margin-left: -50px;
+ font-weight: lighter;
+  margin-left: -90px;
   margin-top: -25px;
+  position: absolute;
+  word-spacing: -3px;
 }
 
 
 #main-header-nav ul {
- 
+  display: flex;
+  flex-direction: row;
   color:#062932;
-  display: inline;
   list-style-type:none;
   line-height: 50px;
 
+  
+ 
+
   }
 
-.box1, .box2 , .box3  {
+.box, .box1, .box2 , .box3  {
  font-family: "bello-caps", sans-serif;
- font-weight: 400;
+ font-weight: 100px;
  font-style: normal;
- display: inline;
  font-size: 20px;
+ letter-spacing: 4px;
+ padding-left: 60px;
+ margin-top: 230px;
+ margin-left: -20px;
+
+
 
 
 
@@ -136,7 +145,7 @@ margin-top: -4px;
   font-weight: 400;
   font-style: normal;
   font-size: 60px;
-  color:#21391c;
+  color:#062932;
   box-shadow: #2d2d2d;
 
  
@@ -147,7 +156,7 @@ margin-top: -4px;
   font-family: "bello-caps", sans serif;
   font-style: normal;
   font-size: 30px;
-  color:#21391c;
+  color:#062932;
   text-align: center;
   width: 400px;
   grid-column: -12/-1;
@@ -175,13 +184,15 @@ margin-top: -4px;
   font-family: "bello-caps", sans serif;
   font-style: normal;
   font-size: 40px;
-  color:#21391c;
+  color:#062932;
   display: inline-block;
   padding-left: 815px;
   padding-right: 705px;
   padding-top: 80px;
-  padding-bottom: 0px;
+  padding-bottom: 80px;
   width: 400px;
+  font-weight: 100px;
+ 
  
   
 }
@@ -196,8 +207,8 @@ margin-top: -4px;
  
   display: inline;
   position: absolute;
-  background-color:#c6ecf6;
-  padding-top: 80px;
+  background-color:#062932;
+  padding-top: 170px;
   padding-bottom: 280px;
   margin: 0px;
   padding-right: 174px ;
@@ -223,23 +234,25 @@ margin-top: -4px;
 }
 
 #share-title {
-  background-color: #303629;
+  background-color: #091214;
+  font-weight: lighter;
   font-family: "bello-caps", sans serif;
   font-style: normal;
   font-size: 40px;
-  color:#ecf8e9;
+  color:#d9e6e9;
   display: inline;
   position: absolute;
   padding-left: 45px;
   padding-right: 55px;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 78px;
+  padding-bottom: 81px;
   width: 1820px;
   margin-top: 600px;
   text-align: center;
 }
 
 .mems {
+  margin-top: 7px;  
   display:flex;
   flex-direction:row;
   opacity:80%;
@@ -248,7 +261,93 @@ margin-top: -4px;
 .mems2 {
   display:flex;
   flex-direction:row;
-  margin-top: 402px;
+  margin-top: 391px;
   margin-left: -153px;
   opacity: 80%;
+}
+
+#footer {
+	background-color:#b3dfea;
+  margin-top: -18px;
+	
+}
+
+#footer-nav ul {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  width: 200px;
+  list-style-type: none;
+  font-family: "bello-caps", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 10px;
+  font-weight:lighter;
+  margin-top: 60px;
+}
+
+.footer-logo {
+	grid-column: 1/-13;
+	
+	padding-top: 50px;
+	/* Remove as content will dictate height */
+	
+	
+}
+
+#footer-comment {
+  grid-column: 9/-6;
+  margin-top: 80px;
+
+}
+#footer-comment h3 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  width: 200px;
+  list-style-type: none;
+  font-family: "bello-caps", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 10px;
+  font-weight: lighter;
+  margin-top: -50px;
+  font-size: 40px;
+
+}
+
+
+#footer-comment input[type="submit"] {
+  font-family: "bello-caps", sans-serif;
+  font-style: normal;
+  
+  width: 200px;
+    background-color:#92b8c1;
+    color: #1e2527;
+    border-radius: 40px;
+	border: none;
+    transition: all 200ms ease-in;
+    	font-size: 28px;
+	cursor: pointer;
+	margin-top: 50px
+}
+
+#footer-comment input[type="submit"]:hover {
+    background-color:#f2f2f2;
+    border-radius: 60px;
+	color: #101010;
+
+}
+
+#footer-comment input, textarea {
+	margin-right: 40px;
+    border: none;
+    border-radius:  40px;
+	font-size: 18px;
+	padding: 22px;
+	position: relative;
+	bottom: 1.2em;
+	width: 350px;
+ margin-top: 20px;
+	
 }
