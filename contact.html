@@ -5,33 +5,97 @@
   <meta name="viewport" content="initial-scale=1.0, width=device-width">
   <title>ZIMA refresh</title>  
   <link rel="stylesheet" href="https://use.typekit.net/ucn1gjb.css">
-  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css ">  
 </head>
 
 <body>
   <div class="container">
-  <header>
-    <div class="logo"><h2>logo</h2></div>
-    <nav id="main-header-nav">
-      <ul>
-        <div class="box box1"><h2>Contact Us</h2></div>
-        <div class="box box2"><h2>Products</h2></div>
-        <div class="box box3"><h2>Find A Store</h2></div>
+    
+    <header class="grid">
+      <h2 class="hidden">main header content</h2>
+      <section id="logo">
+        <h2 class="hidden">logo</h2>
+        <img src="images/logo_clear.png" alt="logo">
+      </section>
+      
+      <nav id="main-header-nav" >
+        <ul>
+          <li><div class="box box1"><h2>Contact Us</h2></div></li>
+          <li><div class="box box2"><h2>Products</h2></div></li>
+          <li><div class="box box3"><h2>Find A Store</h2></div></li>
+        </ul>
+      </nav>
+      
+      <nav id="search">
+        <h2 class="hidden">search</h2>
         <div class="box box4"><h2>search</h2></div>
-      </ul>
-    </nav>
-   
-  </header>
-  <main>
-     <section>
-      <h2 class="hidden">hero image</h2>
-      <div class="hero"><h2>hero image</h2></div>
-      <div class="pop-up"><h2>pop up ad</h2></div>
-  </section>
+      </nav>
+    
+    </header>
+    <main>
+      <h2 class="hidden">main content</h2>
+          <section id="hero-content">
+            <h2 class="hidden">hero content</h2>
+            <img src="images/zima_headline.png" alt="zima headline" id="headline">
+            <img src="images/beach_hero.jpg" alt="beach" id="hero">
+            <div class="pop-up">
+              <h2>Get</h2>
+              <h2 id="percent">25% Off</h2>
+              <h2>first purchase by signing up!</h2>
+            </div>
+        </section>
+
+        <section class="grid" id="about">
+          <section class="about">
+            <h2 id="headline2"> A Seltzer That Loves You Back</h2>
+            <p>Made with all nautural ingredients and has low calories</p>
+            <p>No artificial colours</p>
+            <p>All parts of the packaging is 100% recycleable and reusable</p>
+            <p>10% of every purchase goes towards charitable organizations that aim to fight global warming.</p>
+          </section>
+          <img src="images/beach_shaped.png" alt="beach" id="beach" class="grid">
+          <img id="pattern" src="images/background_pattern.png" alt="background pattern">
+        </section>
+
+        <section id="flavours-title" class="grid">
+          <h2>OUR FLAVOURS!</h2>
+        </section>
+        
+        <section id="flavours" class="grid">
+          <nav>
+            <ul id="flav-list">
+              <span class="bottles"><img src="images/zima_product_shaped_desktop.png" alt="product"></span>
+              <span class="bottles"><img src="images/zima_product_shaped_desktop.png" alt="product"></span>
+              <span class="bottles"><img src="images/zima_product_shaped_desktop.png" alt="product"></span>
+              <span class="bottles"><img src="images/zima_product_shaped_desktop.png" alt="product"></span>
+            </ul>
+          </nav>
+        </section>
+
+        <section id="share-title" class="grid">
+          <h2>OUR FLAVOURS!</h2>
+        </section>
+
+        <section id="share" class="grid">
+          <nav>
+            <ul id="memories">
+              <span class="mems"><img src="images/memories.jpg" alt="product"></span>
+              <span class="mems"><img src="images/memories2.jpg" alt="product"></span>
+              <span class="mems"><img src="images/memories3.jpg" alt="product"></span>
+              <span class="mems"><img src="images/memories4.jpg" alt="product"></span>
+              <span class="mems"><img src="images/zima_product_shaped_desktop.png" alt="product"></span>
+              <span class="mems"><img src="images/zima_product_shaped_desktop.png" alt="product"></span>
+              <span class="mems"><img src="images/zima_product_shaped_desktop.png" alt="product"></span>
+              <span class="mems"><img src="images/zima_product_shaped_desktop.png" alt="product"></span>
+              <span class="mems"><img src="images/zima_product_shaped_desktop.png" alt="product"></span>
+              <span class="mems"><img src="images/zima_product_shaped_desktop.png" alt="product"></span>
+            </ul>
+          </nav>
+        </section>
     
 
-  </main>
+    </main>
   </div>
 	
 </body>
