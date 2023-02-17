@@ -181,4 +181,65 @@
   .footer-logo {
     padding-left: 105px;
   }
+
+  /* products page starts*/
+
+  #play-button {
+    position: absolute;
+    margin-left: -190px;
+    margin-top: 40px;
+    opacity: 70%;
+  }
+
+  #mixed-flavours {
+    background-color: #062932;
+    font-family: "bello-caps", sans-serif;
+    font-style: normal;
+    color: #b4e3ee;
+}
+
+#flavours-title {
+    background-color: #062932;
+    font-family: "bello-caps", sans-serif;
+    font-style: normal;
+    color: #b4e3ee;
+}
   
+#mixed-title {
+    background-color: #062932;
+    font-family: "bello-caps", sans-serif;
+    font-style: normal;
+    color: #b4e3ee;
+    padding-left: 80px;
+}
+#bin{
+    margin-left: 20px;
+    background-color: #c8dfe4;
+    width: 280px;
+    height: 280px;
+    border-radius: 40px;
+    font-family: "bello-caps", sans-serif;
+    font-style: normal;
+    text-align: center;
+   
+}
+
+#merch-title {
+    font-family: "bello-caps", sans-serif;
+    font-style: normal;
+    padding-left: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color:#87c6d5;
+}
+
+#dots3 {
+    padding-left: 70px;
+    padding-right:70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:#87c6d5;
+}
+#merch {
+    background-color:#87c6d5;
+}
