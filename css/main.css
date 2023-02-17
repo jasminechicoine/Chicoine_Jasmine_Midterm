@@ -13,6 +13,17 @@ body {
 
 }
 
+
+.grid {
+  display: grid;
+  padding-left: 50px;
+  padding-right:50px;
+  grid-template-columns: repeat(12, 137px);
+
+  grid-column-gap: 16px;
+}
+
+
 #main-header-nav ul {
   display:flex;
   flex:start;
@@ -62,10 +73,12 @@ body {
 .pop-up {
   background-color: #909090;
   color: #2d2d2d;
-  padding: 100px;
+  padding: 130px;
   text-align: center;
-  margin-top: -250px;
+  margin-top: -330px;
   margin-right: 700px;
+  border-top-right-radius:100px ;
+  border-bottom-right-radius:100px;
 }
 
 
