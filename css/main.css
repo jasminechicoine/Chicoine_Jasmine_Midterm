@@ -192,9 +192,6 @@ margin-top: -4px;
   padding-bottom: 80px;
   width: 400px;
   font-weight: 100px;
- 
- 
-  
 }
 
 #flavours {
@@ -213,10 +210,6 @@ margin-top: -4px;
   margin: 0px;
   padding-right: 174px ;
   padding-left: 135px;
-
-  
-  
-
 }
 
 .bottles {
@@ -350,4 +343,133 @@ margin-top: -4px;
 	width: 350px;
  margin-top: 20px;
 	
+}
+
+/* Products Page Below */
+
+#play-button {
+  position: absolute;
+  margin-left: 885px;
+  margin-top: 300px;
+}
+
+
+
+#single-flavours {
+  margin-top: -4px;
+  padding: 0;
+  padding-bottom: 200px;
+}
+
+#single-flavours nav ul {
+ 
+  display: inline;
+  position: absolute;
+  background-color:#0c191c;
+  padding-top: 250px;
+  padding-bottom: 280px;
+  margin: 0px;
+  padding-right: 174px ;
+  padding-left: 135px;
+}
+
+#single-flavours-title {
+  position: absolute;
+  z-index: 1;
+  font-family: "bello-caps", sans serif;
+  font-style: normal;
+  font-size: 80px;
+  color:#deecef;
+  max-width: fit-content;
+  font-weight: 100px;
+  padding-left: 250px;
+  
+}
+
+#mixed-flavours nav ul {
+ 
+  display: inline;
+  position: absolute;
+  background-color:#0c191c;
+  padding-top: 250px;
+  padding-bottom: 280px;
+  margin-top: 794px;
+  margin-left: -50px;
+  padding-right: 174px ;
+  padding-left: 135px;
+  
+}
+
+#mixed-flavours-title {
+  position: absolute;
+  z-index: 1;
+  font-family: "bello-caps", sans serif;
+  font-style: normal;
+  font-size: 80px;
+  color:#deecef;
+  max-width: fit-content;
+  font-weight: 100px;
+  padding-left: 200px;
+  margin-top: 850px;
+  
+}
+
+#merch {
+  background-color: #87c6d5;
+  margin-top: 1788px;
+}
+
+#product-box1 {
+  background-color: #c8dfe4;
+  width:500px;
+  height: 500px;
+  border-radius: 60px;
+  margin-left: -80px;
+  margin-top: 200px;
+  text-align: center;
+  font-family: "bello-caps", sans serif;
+  font-size: 40px;
+  margin-bottom: 200px;
+}
+
+
+#product-box2 {
+  background-color: #c8dfe4;
+  width:500px;
+  height: 500px;
+  border-radius: 60px;
+  margin-left: 350px;
+  margin-top: 200px;
+  text-align: center;
+  font-family: "bello-caps", sans serif;
+  font-size: 40px;
+  
+}
+
+
+#product-box3 {
+  background-color: #c8dfe4;
+  width:500px;
+  height: 500px;
+  border-radius: 60px;
+  margin-left: 780px;
+  margin-top: 200px;
+  text-align: center;
+  font-family: "bello-caps", sans serif;
+  font-size: 40px;
+  
+}
+
+#merch-title {
+  font-family: "bello-caps", sans serif;
+  font-style: normal;
+  font-size: 100px;
+  color:#162d32;
+  width: 500px;
+  font-weight: 100px;
+  margin-left: 680px;
+  margin-top: 40px;
+
+  
+
 }
