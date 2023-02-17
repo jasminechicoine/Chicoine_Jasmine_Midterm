@@ -21,15 +21,11 @@
       
       <nav id="main-header-nav" >
         <ul>
+          <li><div class="box box"><h2>Home</h2></div></li>
           <li><div class="box box1"><h2>Contact Us</h2></div></li>
           <li><div class="box box2"><h2>Products</h2></div></li>
           <li><div class="box box3"><h2>Find A Store</h2></div></li>
         </ul>
-      </nav>
-      
-      <nav id="search">
-        <h2 class="hidden">search</h2>
-        <div class="box box4"><h2>search</h2></div>
       </nav>
     
     </header>
@@ -100,6 +96,29 @@
           </ul>
         </nav>
         </section>
+
+        <footer id="footer-contact">
+          <div class="grid" id="footer">
+                  <img class="footer-logo" src="images/logo_clear.png" alt="Logo" >
+              <nav id="footer-nav">
+                  <h2 class="hidden">Main Footer Navigation</h2>
+                  <ul>
+                    <li><div><h2>Home</h2></div></li>
+                    <li><div><h2>Contact Us</h2></div></li>
+                    <li><div><h2>Products</h2></div></li>
+                    <li><div><h2>Find A Store</h2></div></li>
+                  </ul>
+              </nav>
+              <section id="footer-comment" class="grid">
+                  <h3 id="contact-title">Contact Us!</h3>
+                  <form action="email.php" method="POST" enctype="text/plain">
+                      <input name="email" type="text" required placeholder="Email e.g. example@mail.com">
+                      <textarea name="msg" placeholder="Leave Message Here!"></textarea>
+                      <input id="footer-submit" name="submit" type="submit" value="Send">
+                  </form>
+              </section>
+          </div>
+      </footer>
     
 
     </main>
